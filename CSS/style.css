@@ -9,7 +9,9 @@ body {
 }
 
 header {
-	width: 70%;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 120%;
+	width: 40%;
 	height: 40px;
 	padding-top: 10px;
 	position: sticky;
