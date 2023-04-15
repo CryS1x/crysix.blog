@@ -29,6 +29,7 @@ main {
 	justify-content: center;
 	gap: 5px;
 	width: 100%;
+	font-family: 'Comfortaa', cursive;
 	font-size: 80%;
 
 }
@@ -58,6 +59,7 @@ a {
 	gap: 50px;
 }
 .card {
+	max-height: 100%;
 	width: auto;
 	max-width: 300px;
 	text-overflow: wrap;
