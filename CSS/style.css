@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	background-color: black;
+}
+
+header {
+	width: 70%;
+	height: 40px;
+	padding-top: 10px;
+	position: sticky;
+	top: 10px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 2px rgba(0, 162, 255, 0.747);
+}
+
+main {
+	color: white;
+	min-height: 100%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	width: 100%;
+	font-size: 80%;
+
+}
+
+footer {
+	color: white;
+    text-align: center;
+    width: 100%;
+	height: 20px;
+	background-color: black;
+	position: sticky;
+	bottom: 0px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+.card_container {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	border: 0px solid white;
+	padding: 20px;
+	gap: 50px;
+}
+.card {
+	width: auto;
+	max-width: 300px;
+	text-overflow: wrap;
+	border-radius: 30px;
+	text-align: left;
+	padding: 1.5em;
+  	box-shadow: 0px 0px 10px 2px rgba(0, 162, 255, 0.747);
+}
+
+.card img {
+	display:block;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	width: 100%;
+}
+
+#data {
+	font-family: 'Press Start 2P', cursive;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 65%;
+	margin-top: 15px;
+}
